@@ -20,8 +20,8 @@ This exercise should only be conducted in a safe, controlled environment as desc
 
 # Initial Setup
 
-Both VMs have been
-configured and downloaded from the SEEDLabs website. They are connected to the
+Both VMs (Attacker: Ubuntu VM, Victim: Android VM) have been
+configured and downloaded from the [SEEDLabs website](https://seedsecuritylabs.org/Labs_16.04/Mobile/Android_Repackaging/). They are connected to the
 same Network using the "NAT Network" adapter.
 
 ## Installing the App
@@ -32,9 +32,8 @@ address of the Android VM, we ran the `ifconfig` command in the Android
 
 ![ifconfig](img/image001.png)
 
-
 Next, using this IP address, we installed
-the supplied `RepackagingLab.apk` using the `adb` tool from the Ubuntu VM. 
+the supplied `RepackagingLab.apk` using the `adb` tool from the Ubuntu VM.
 We tried the Terminator Terminal for this (preinstalled on the SEED VM):
 
 ![adb-tool](img/image003.png)
